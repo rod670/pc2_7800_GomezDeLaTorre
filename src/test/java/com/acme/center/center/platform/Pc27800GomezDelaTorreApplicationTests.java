@@ -1,4 +1,4 @@
-package com.acme.catchup.pc2_7800_gomezdelatorre;
+package com.acme.center.center.platform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
