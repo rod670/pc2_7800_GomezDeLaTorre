@@ -5,6 +5,7 @@ import com.acme.center.center.platform.sales.domain.model.valueobjects.Warehouse
 import com.acme.center.center.platform.sales.domain.model.valueobjects.DeliveryWindow;
 import com.acme.center.center.platform.sales.domain.model.valueobjects.PackageLoad;
 import com.acme.center.center.platform.sales.domain.model.valueobjects.priorityLevel;
+import com.acme.center.center.platform.sales.domain.model.valueobjects.DeliveryStatus;
 
 public class Customer {
     private Long id;
