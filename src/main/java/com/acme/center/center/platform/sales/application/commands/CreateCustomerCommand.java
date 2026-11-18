@@ -5,12 +5,12 @@ import com.acme.center.center.platform.sales.domain.model.aggregates.*;
 
 public record CreateCustomerCommand(
         Long id;
-        DeliveryCode deliveryCode;
-        WarehouseId warehouseId;
-        DeliveryWindow deliveryWindow;
-        PackageLoad packageLoad;
+        String deliveryCode;
+        String warehouseId;
+        String deliveryWindowStartDate;
+        String packageLoadUnit;
         Integer priorityLevel;
-        DeliveryStatus status;
+        String status;
         String deliveryNotes;
 ) {
 }
