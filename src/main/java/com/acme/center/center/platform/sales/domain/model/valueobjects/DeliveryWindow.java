@@ -9,5 +9,8 @@ public record DeliveryWindow(LocalDate startDate, LocalDate endDate) {
             throw new IllegalArgumentException("Delivery window cannot be null");
 
         }
+        if (startDate.isAfter(endDate)) {
+            throw new IllegalArgumentException("Start date cannot be after end date");
+        }
     }
 }
